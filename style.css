@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    /* width: 1440px; */
+    /* height: 1024px; */
+    height: 100vh;
+    background-color: #F6F7F8;
+}
+
+.content {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* page 1 */
