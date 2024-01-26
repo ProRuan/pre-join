@@ -6,11 +6,66 @@ body {
     background-color: #F6F7F8;
 }
 
-.content {
+/* title-page */
+.title-page {
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* page 1 */
+/* log-in */
+.log-in-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.log-in-logo {
+    padding-top: 80px;
+    padding-left: 77px;
+}
+
+.sign-up-box {
+    padding-top: 67px;
+    padding-right: 122px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+}
+
+.sign-up-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.sign-up-button {
+    padding: 15px 16px;
+    background-color: #2A3647;
+    border: unset;
+    border-radius: 8px;
+}
+
+.sign-up-button-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    color: #FFFFFF;
+}
+
+.log-in-main {
+    padding-top: 63.5px;
+    display: flex;
+    justify-content: center;
+}
+
+.log-in-box {
+    padding: 48px 115px;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 14px 3px rgba(0, 0, 0, 0.04);
+}
