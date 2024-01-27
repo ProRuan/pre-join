@@ -68,4 +68,84 @@ body {
     border-radius: 30px;
     background-color: #FFFFFF;
     box-shadow: 0 0 14px 3px rgba(0, 0, 0, 0.04);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.log-in-headline {
+    margin: 0 68px 0 68px;
+    padding: 0 0 16px 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 61px;
+    font-weight: 700;
+    line-height: 73.2px;
+    text-align: center;
+    border-bottom: 3px solid #29ABE2;
+}
+
+.log-in-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-field {
+    margin: 0;
+    border: unset;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.input-img-group {
+    box-sizing: border-box;
+    padding: 12px 21px;
+    width: 422px;
+    color: #D1D1D1;
+    border: 1px solid #D1D1D1;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.log-in-input {
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #D1D1D1;
+    border: unset;
+    outline: none;
+    flex: 1;
+}
+
+.log-in-img {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.log-in-password-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.log-in-input-sub {
+    padding: 0;
+    width: 119px;
+    height: 12px;
+    /* font-family fehlt!!! */
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    border: unset;
+    outline: none;
 }
