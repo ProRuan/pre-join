@@ -1,0 +1,247 @@
+.log-in-header {
+    padding-bottom: 63.5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.log-in-logo {
+    padding-top: 80px;
+    padding-left: 77px;
+}
+
+.sign-up-box {
+    padding-top: 67px;
+    padding-right: 122px;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+}
+
+.sign-up-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.sign-up-button {
+    padding: 15px 16px;
+    background-color: #2A3647;
+    border: unset;
+    border-radius: 8px;
+}
+
+.sign-up-button-text {
+    width: 59px;
+    height: 19px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    color: #FFFFFF;
+}
+
+.log-in-main {
+    padding-bottom: 182.5px;
+    display: flex;
+    justify-content: center;
+}
+
+.log-in-box {
+    padding: 48px 115px;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 14px 3px rgba(0, 0, 0, 0.04);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.log-in-headline-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 13px;
+}
+
+.log-in-headline {
+    margin: 0;
+    width: 315px;
+    height: 73px;
+    font-family: 'Inter', sans-serif;
+    font-size: 61px;
+    font-weight: 700;
+    line-height: 73.2px;
+    text-align: center;
+}
+
+.log-in-underline {
+    width: 150px;
+    height: 3px;
+}
+
+.log-in-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-field {
+    margin: 0;
+    border: unset;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.input-img-group {
+    box-sizing: border-box;
+    padding: 11px 21px;
+    width: 422px;
+    color: #D1D1D1;
+    border: 1px solid #D1D1D1;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.log-in-input {
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #D1D1D1;
+    border: unset;
+    outline: none;
+    flex: 1;
+}
+
+.log-in-img {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.log-in-password-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.log-in-input-sub {
+    padding: 0;
+    width: 119px;
+    height: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    border: unset;
+    outline: none;
+}
+
+.remember-me-group {
+    padding-left: 39px;
+    height: 24px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+}
+
+.remember-me-check-button {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.remember-me-text {
+    width: 110px;
+    height: 19px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+}
+
+.log-in-button-group {
+    display: flex;
+    justify-content: flex-start;
+    gap: 35px;
+}
+
+.log-in-button {
+    padding: 0 24px;
+    height: 48px;
+    background-color: #2A3647;
+    border: unset;
+    border-radius: 8px;
+}
+
+.log-in-button-text {
+    width: 62px;
+    height: 25px;
+    font-family: 'Inter', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 25.2px;
+    color: #FFFFFF;
+}
+
+.guest-log-in-button {
+    padding: 0 23px;
+    height: 48px;
+    font-family: 'Inter', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 25.2px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border: 1px solid #2A3647;
+}
+
+.guest-log-in-button-text {
+    width: 129px;
+    height: 25px;
+    font-family: 'Inter', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 25.2px;
+}
+
+.log-in-footer {
+    padding-bottom: 40px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.log-in-footer-link {
+    padding: 8px;
+}
+
+.log-in-footer-link-text {
+    height: 19px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #A8A8A8;
+}
+
+.w-105 {
+    width: 105px;
+}
+
+.w-93 {
+    width: 93px;
+}
