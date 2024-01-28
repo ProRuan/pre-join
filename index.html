@@ -11,12 +11,70 @@
     <script src="script.js"></script>
 </head>
 
-<body onload="init()">
+<body>
 
     <div id="content" include-html="./assets/templates/log-in.html">
         <!-- Bitte Template erstellen! -->
 
+        <header class="sign-up-header">
+            <img class="log-in-logo" src="./assets/img/log-in-logo.svg" alt="log-in-logo">
+        </header>
 
+        <main class="sign-up-main">
+            <section class="sign-up-box">
+                <img class="sign-up-arrow-left-line" src="./assets/img/sign-up-arrow-left-line.svg"
+                    alt="sign-up-arrow-left-line">
+                <div class="log-in-headline-group">
+                    <h1 class="log-in-headline">Sign up</h1>
+                    <img class="log-in-underline" src="./assets/img/log-in-underline.svg" alt="log-in-underline">
+                </div>
+
+                <form class="sign-up-form">
+                    <fieldset class="sign-up-input-field">
+                        <div class="input-img-group">
+                            <input id="log-in-name" class="log-in-input" type="text" placeholder="Name" required>
+                            <img class="log-in-img" src="./assets/img/sign-up-person.svg" alt="log-in-mail">
+                        </div>
+                        <div class="input-img-group">
+                            <input id="log-in-email" class="log-in-input" type="email" placeholder="Email" required>
+                            <img class="log-in-img" src="./assets/img/log-in-mail.svg" alt="log-in-mail">
+                        </div>
+                        <div class="input-img-group">
+                            <input id="log-in-email" class="log-in-input" type="password" placeholder="Password"
+                                required>
+                            <img class="log-in-img" src="./assets/img/log-in-lock.svg" alt="log-in-mail">
+                        </div>
+                        <div class="log-in-password-group">
+                            <div class="input-img-group">
+                                <input id="log-in-confirm-password" class="log-in-input" type="password"
+                                    placeholder="Confirm Password" required>
+                                <img class="log-in-img" src="./assets/img/log-in-lock.svg" alt="log-in-lock">
+                            </div>
+                            <input class="log-in-input-sub" type="text">
+                        </div>
+                        <div class="accept-group">
+                            <img class="remember-me-check-button" src="./assets/img/log-in-check-button.svg"
+                                alt="log-in-check-button">
+                            <div class="accept-text">I accept the <a class="accept-text-link" href="#"
+                                    target="_blank">Privacy policy</a></div>
+                        </div>
+                    </fieldset>
+                </form>
+
+                <button id="sign-up-button" class="sign-up-button-2">
+                    <div class="sign-up-button-text-2">Sign up</div>
+                </button>
+            </section>
+        </main>
+
+        <footer class="log-in-footer">
+            <a class="log-in-footer-link">
+                <div class="log-in-footer-link-text w-105">Privacy Policy</div>
+            </a>
+            <a class="log-in-footer-link">
+                <div class="log-in-footer-link-text w-93">Legal notice</div>
+            </a>
+        </footer>
 
         <!-- Bitte Template erstellen! -->
     </div>
