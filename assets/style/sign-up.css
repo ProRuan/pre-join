@@ -90,3 +90,26 @@
     line-height: 25.2px;
     color: #FFFFFF;
 }
+
+.signed-up-button {
+    height: 74px;
+    padding: 0 25px;
+    background-color: #2A3647;
+    border: unset;
+    border-radius: 20px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.signed-up-button:hover {
+    filter: drop-shadow(0 0 4px rgba(0, 0, 0, 0.15));
+}
+
+.signed-up-button-text {
+    width: 262px;
+    height: 24px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+}
