@@ -5,11 +5,18 @@ body {
     background-color: #F6F7F8;
 }
 
-.subcontainer {
+.content-row {
     display: flex;
+    flex-direction: row;
 }
 
-/* summary-user */
+.content-column {
+    width: calc(100% - 232px);
+    display: flex;
+    flex-direction: column;
+}
+
+/* summary-user or aside-header-main */
 /* side-menu */
 .side-menu {
     box-sizing: border-box;
@@ -95,25 +102,131 @@ body {
 .subheader {
     box-sizing: border-box;
     padding: 20px 40px 20px 116px;
-
-    /* Please check width!!! */
     width: 100%;
     height: fit-content;
-
     background-color: #FFFFFF;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .subheader-text {
+    width: 319px;
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
 }
 
+.info-profile-group {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+/* summary user sub */
+.summary-user-headline-group {
+    padding: 110px 0 0 96px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 30px
+}
+
+.summary-user-headline {
+    margin: 0;
+    width: 264px;
+    height: 73px;
+    font-family: 'Inter', sans-serif;
+    font-size: 61px;
+    font-weight: 700;
+    line-height: 73.2px;
+}
+
+.vertical-line {
+    width: 3px;
+    height: 59px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.summary-user-subheadline {
+    width: 301px;
+    height: 32px;
+    font-family: 'Inter', sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 32.4px;
+}
+
+.summary-user-overview {
+    padding: 56px 0 0 96px;
+    display: flex;
+    flex-direction: column;
+}
+
+.to-do-done-group {
+    width: fit-content;
+    display: flex;
+    gap: 32px;
+}
+
+.to-do-box {
+    box-sizing: border-box;
+    padding: 38px 19px;
+    width: 264px;
+    height: 168px;
+    border-radius: 30px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 18px;
+}
+
+.to-do-img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.to-do-img {
+    width: 69px;
+    height: 69px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.to-do-counter-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.to-do-counter {
+    width: 31px;
+    height: 77px;
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76.8px;
+    text-align: center;
+}
+
+.to-do-text {
+    width: 63px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #2A3647;
+}
+
 /* menu icons in white an gray!!! */
 /* cursor:pointer fuer alle templates pruefen!!! */
+/* evtl. padding 16 statt 13 */
+/* evtl. line-height löschen */
 
 /* Bitte CSS erstellen!!! */
