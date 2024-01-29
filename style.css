@@ -164,6 +164,7 @@ body {
     padding: 56px 0 0 96px;
     display: flex;
     flex-direction: column;
+    gap: 28px
 }
 
 .to-do-done-group {
@@ -224,9 +225,138 @@ body {
     color: #2A3647;
 }
 
+.urgent-task-greeting-group {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.urgent-task-deadline-group {
+    box-sizing: border-box;
+    padding: 28px 48px;
+    width: 560px;
+    height: 168px;
+    border-radius: 30px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 61px;
+}
+
+.urgent-task-group {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.urgent-task-img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.urgent-task-text {
+    width: 52px;
+    height: 19px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #2A3647;
+}
+
+.deadline-group {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.deadline-date {
+    font-family: 'Inter', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 25.2px;
+    color: #2A3647;
+}
+
+.deadline-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #2A3647;
+}
+
+.task-summary-group {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.greeting-group {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.greeting {
+    height: 56px;
+    font-family: 'Inter', sans-serif;
+    font-size: 47px;
+    font-weight: 500;
+    line-height: 56.4px;
+    color: #2A3647;
+}
+
+.user-name {
+    height: 77px;
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 76.8px;
+    color: #29ABE2;
+}
+
+.task-summary {
+    box-sizing: border-box;
+    padding: 25px 0;
+    width: 168px;
+    height: 168px;
+    border-radius: 30px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 13px;
+}
+
+.task-summary-counter {
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76.8px;
+    text-align: center;
+}
+
+.task-summary-text {
+    width: 100px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+/* rename classes!!! */
 /* menu icons in white an gray!!! */
 /* cursor:pointer fuer alle templates pruefen!!! */
+
 /* evtl. padding 16 statt 13 */
 /* evtl. line-height löschen */
+/* evtl. text width und height löschen */
 
 /* Bitte CSS erstellen!!! */
