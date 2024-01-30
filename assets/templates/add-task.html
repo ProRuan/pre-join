@@ -1,0 +1,37 @@
+<h1 class="add-task-headline">Add Task</h1>
+
+<form class="add-task-form">
+    <fieldset class="add-task-fieldset">
+        <div class="task-label-input-group">
+            <label class="task-label-text" for="task-title">Title<span class="tlt-required">*</span></label>
+            <div class="task-input-hint-group">
+                <input id="task-title" class="task-input" type="text" placeholder="Enter a title" required>
+                <div class="task-hint">This field is required</div>
+            </div>
+        </div>
+        <div class="task-label-input-group">
+            <label class="task-label-text" for="task-description">Description</label>
+            <div class="task-input-hint-group">
+                <textarea name="task-description" id="task-description" class="task-textarea" cols="30" rows="10"
+                    placeholder="Enter a description" required></textarea>
+                <div class="task-hint">This field is required</div>
+            </div>
+        </div>
+        <div class="task-label-input-group">
+            <label class="task-label-text" for="task-assignment">Assigned to</label>
+            <div class="task-input-hint-group">
+                <!-- Bitte bearbeiten!!! -->
+                <select name="task-assignment" id="task-assignment" class="task-select"
+                    placeholder="Select contacts to assign">
+                    <option value="0">Select contacts to assign</option>
+                    <option value="1">You</option>
+                    <option value="i">User i</option>
+                </select>
+            </div>
+        </div>
+    </fieldset>
+    <img class="add-task-vertical-line" src="./assets/img/vertical-line-task-form.svg" alt="vertical-line-task-form">
+    <fieldset class="add-task-fieldset">
+
+    </fieldset>
+</form>
