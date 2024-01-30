@@ -1,6 +1,6 @@
 async function init() {
     await includeHTML('include-html');
-    // includeHTML('include-template');
+    includeHTML('include-template');
 }
 
 
@@ -19,6 +19,9 @@ async function includeHTML(attribute) {
 }
 
 
-// Please update menu
+// Please update menu (link)
+// Please update header (user / guest)
+// Please update template (user / guest)
+
 // Please provide function for user interface
 // Please provide funciton for templates

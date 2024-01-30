@@ -1,0 +1,26 @@
+.menu-snippet {
+    box-sizing: border-box;
+    padding: 10px;
+    width: fit-content;
+    background-color: #2A3647;
+    border-radius: 20px 0 20px 20px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.menu-snippet-link {
+    box-sizing: border-box;
+    padding: 8px 8px 8px 16px;
+    width: 130px;
+    height: 46px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.msl-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #CDCDCD;
+}
