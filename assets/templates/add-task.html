@@ -1,6 +1,6 @@
 <h1 class="add-task-headline">Add Task</h1>
 
-<form class="add-task-form">
+<form class="add-task-form" onsubmit="">
     <fieldset class="add-task-fieldset">
         <div class="task-label-input-group">
             <label class="task-label-text" for="task-title">Title<span class="tlt-required">*</span></label>
@@ -20,18 +20,43 @@
         <div class="task-label-input-group">
             <label class="task-label-text" for="task-assignment">Assigned to</label>
             <div class="task-input-hint-group">
-                <!-- Bitte bearbeiten!!! -->
-                <select name="task-assignment" id="task-assignment" class="task-select"
-                    placeholder="Select contacts to assign">
-                    <option value="0">Select contacts to assign</option>
-                    <option value="1">You</option>
-                    <option value="i">User i</option>
-                </select>
+                <div class="task-select-group">
+                    <select name="task-assignment" id="task-assignment" class="task-select"
+                        placeholder="Select contacts to assign">
+                        <option value="0">Select contacts to assign</option>
+                        <option value="1">You</option>
+                        <option value="i">User i</option>
+                    </select>
+                    <img class="task-arrow-drop-down" src="./assets/img/arrow-drop-down.svg" alt="arrow-drop-down">
+                </div>
             </div>
         </div>
     </fieldset>
     <img class="add-task-vertical-line" src="./assets/img/vertical-line-task-form.svg" alt="vertical-line-task-form">
     <fieldset class="add-task-fieldset">
-
+        <div class="task-label-input-group">
+            <label class="task-label-text" for="task-due-date">Due date<span class="tlt-required">*</span></label>
+            <div class="task-input-hint-group">
+                <input id="task-due-date" class="task-input c-gray" type="date" required>
+                <div class="task-hint">This field is required</div>
+            </div>
+        </div>
+        <div class="task-label-input-group">
+            <label class="task-label-text" for="task-priority">Prio</label>
+            <div class="priority-button-group">
+                <button id="priority-urgent-button" class="priority-button pb-white">
+                    <div class="priority-button-text">Urgent</div>
+                    <img class="priority-img" src="./assets/img/prio-urgent.svg" alt="prio-urgent">
+                </button>
+                <button id="priority-medium-button" class="priority-button pb-orange">
+                    <div class="priority-medium-button-text">Medium</div>
+                    <img class="priority-img" src="./assets/img/prio-medium.svg" alt="prio-medium">
+                </button>
+                <button id="priority-low-button" class="priority-button pb-white">
+                    <div class="priority-button-text">Low</div>
+                    <img class="priority-img" src="./assets/img/prio-low.svg" alt="prio-low">
+                </button>
+            </div>
+        </div>
     </fieldset>
 </form>
