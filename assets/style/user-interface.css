@@ -1,0 +1,118 @@
+/* ui-menu */
+.content-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.ui-menu {
+    box-sizing: border-box;
+    padding: 64px 0;
+    width: 232px;
+    height: 1024px;
+    background-color: #2A3647;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-logo {
+    width: 100.03px;
+    height: 121.97px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.menu-link-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu-link {
+    padding: 8px 56px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.ml-active {
+    background-color: #091931;
+}
+
+.menu-link-icon {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.menu-link-text {
+    height: 19px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+}
+
+.mlt-white {
+    color: #FFFFFF;
+}
+
+.mlt-gray {
+    color: #CDCDCD;
+}
+
+.formal-link-group {
+    box-sizing: border-box;
+    padding: 243px 0 0 52px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.formal-link {
+    padding: 8px;
+    height: 19px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #A8A8A8;
+}
+
+/* ui-header */
+.content-column {
+    width: calc(100% - 232px);
+    display: flex;
+    flex-direction: column;
+}
+
+.ui-header {
+    box-sizing: border-box;
+    padding: 20px 40px 20px 116px;
+    width: 100%;
+    height: fit-content;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ui-header-text {
+    width: 319px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.info-profile-group {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}

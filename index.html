@@ -8,123 +8,18 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./assets/style/log-in.css">
     <link rel="stylesheet" href="./assets/style/sign-up.css">
+    <link rel="stylesheet" href="./assets/style/user-interface.css">
+    <link rel="stylesheet" href="./assets/style/summary-user.css">
     <link rel="stylesheet" href="./assets/fonts/font-face.css">
     <script src="script.js"></script>
 </head>
 
-<body>
+<body onload="init()">
 
-    <div id="content" include-html="./assets/templates/sign-up.html">
+    <div id="content" include-html="./assets/templates/user-interface.html">
         <!-- Bitte Template erstellen! -->
 
-        <div class="content-row">
-            <aside class="side-menu">
-                <img class="menu-logo" src="./assets/img/menu-logo.svg" alt="menu-logo">
 
-                <div class="menu-link-group">
-                    <a class="menu-link ml-active">
-                        <img class="menu-link-icon" src="./assets/img/summary.svg" alt="summary">
-                        <div class="menu-link-text mlt-white">Summary</div>
-                    </a>
-                    <a class="menu-link">
-                        <img class="menu-link-icon" src="./assets/img/task.svg" alt="task">
-                        <div class="menu-link-text mlt-gray">Add Task</div>
-                    </a>
-                    <a class="menu-link">
-                        <img class="menu-link-icon" src="./assets/img/board.svg" alt="board">
-                        <div class="menu-link-text mlt-gray">Board</div>
-                    </a>
-                    <a class="menu-link">
-                        <img class="menu-link-icon" src="./assets/img/contacts.svg" alt="contacts">
-                        <div class="menu-link-text mlt-gray">Contacts</div>
-                    </a>
-                </div>
-
-                <div class="formal-link-group">
-                    <a class="formal-link">Privacy Policy</a>
-                    <a class="formal-link">Legal notice</a>
-                </div>
-            </aside>
-
-            <div class="content-column">
-                <header class="subheader">
-                    <div class="subheader-text">Kanban Project Management Tool</div>
-                    <div class="info-profile-group">
-                        <img src="./assets/img/help.svg" alt="help">
-                        <img src="./assets/img/user-profile.svg" alt="user-profile">
-                    </div>
-                </header>
-
-                <main>
-                    <section class="summary-user-headline-group">
-                        <h1 class="summary-user-headline">Join 360</h1>
-                        <img class="vertical-line" src="./assets/img/vertical-line.svg" alt="vertical-line">
-                        <div class="summary-user-subheadline">Key Metrics at a Glance</div>
-                    </section>
-
-                    <section class="summary-user-overview">
-                        <div class="to-do-done-group">
-                            <div class="to-do-box">
-                                <div class="to-do-img-box">
-                                    <img class="to-do-img" src="./assets/img/to-do.svg" alt="to-do">
-                                </div>
-                                <div class="to-do-counter-group">
-                                    <div class="to-do-counter">1</div>
-                                    <div class="to-do-text">To-do</div>
-                                </div>
-                            </div>
-                            <div class="to-do-box">
-                                <div class="to-do-img-box">
-                                    <img class="to-do-img" src="./assets/img/check.svg" alt="to-do">
-                                </div>
-                                <div class="to-do-counter-group">
-                                    <div class="to-do-counter">1</div>
-                                    <div class="to-do-text">Done</div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="urgent-task-greeting-group">
-                            <div class="urgent-task-deadline-group">
-                                <div class="urgent-task-group">
-                                    <div class="to-do-img-box">
-                                        <img class="urgent-task-img" src="./assets/img/urgent.svg" alt="urgent">
-                                    </div>
-                                    <div class="to-do-counter-group">
-                                        <div class="to-do-counter">1</div>
-                                        <div class="urgent-task-text">Urgent</div>
-                                    </div>
-                                </div>
-                                <img src="./assets/img/vertical-line-urgent.svg" alt="vertical-line-urgent">
-                                <div class="deadline-group">
-                                    <div class="deadline-date">October 16, 2022</div>
-                                    <div class="deadline-text">Upcoming Deadline</div>
-                                </div>
-                            </div>
-                            <div class="greeting-group">
-                                <div class="greeting">Good morning, </div>
-                                <div class="user-name">Sophia Müller</div>
-                            </div>
-                        </div>
-
-                        <div class="task-summary-group">
-                            <div class="task-summary">
-                                <div class="task-summary-counter">5</div>
-                                <div class="task-summary-text">Tasks in Board</div>
-                            </div>
-                            <div class="task-summary">
-                                <div class="task-summary-counter">2</div>
-                                <div class="task-summary-text">Tasks in Progress</div>
-                            </div>
-                            <div class="task-summary">
-                                <div class="task-summary-counter">2</div>
-                                <div class="task-summary-text">Awaiting Feedback</div>
-                            </div>
-                        </div>
-                    </section>
-                </main>
-            </div>
-        </div>
 
         <!-- Bitte Template erstellen! -->
     </div>
