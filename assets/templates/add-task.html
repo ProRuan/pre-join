@@ -1,7 +1,7 @@
 <h1 class="add-task-headline">Add Task</h1>
 
 <form class="add-task-form" onsubmit="">
-    <fieldset class="add-task-fieldset">
+    <fieldset class="add-task-fieldset gap-16">
         <div class="task-label-input-group">
             <label class="task-label-text" for="task-title">Title<span class="tlt-required">*</span></label>
             <div class="task-input-hint-group">
@@ -19,21 +19,18 @@
         </div>
         <div class="task-label-input-group">
             <label class="task-label-text" for="task-assignment">Assigned to</label>
-            <div class="task-input-hint-group">
-                <div class="task-select-group">
-                    <select name="task-assignment" id="task-assignment" class="task-select"
-                        placeholder="Select contacts to assign">
-                        <option value="0">Select contacts to assign</option>
-                        <option value="1">You</option>
-                        <option value="i">User i</option>
-                    </select>
-                    <img class="task-arrow-drop-down" src="./assets/img/arrow-drop-down.svg" alt="arrow-drop-down">
-                </div>
+            <div class="p-relative">
+                <select name="task-assignment" id="task-assignment" class="task-select">
+                    <option value="0">Select contacts to assign</option>
+                    <option value="1">You</option>
+                    <option value="i">User i</option>
+                </select>
+                <img class="task-drop-down-arrow" src="./assets/img/drop-down-arrow.svg" alt="drop-down-arrow">
             </div>
         </div>
     </fieldset>
-    <img class="add-task-vertical-line" src="./assets/img/vertical-line-task-form.svg" alt="vertical-line-task-form">
-    <fieldset class="add-task-fieldset">
+    <img class="vertical-line-task-form" src="./assets/img/vertical-line-task-form.svg" alt="vertical-line-task-form">
+    <fieldset class="add-task-fieldset gap-24">
         <div class="task-label-input-group">
             <label class="task-label-text" for="task-due-date">Due date<span class="tlt-required">*</span></label>
             <div class="task-input-hint-group">
@@ -58,5 +55,37 @@
                 </button>
             </div>
         </div>
+        <div class="task-label-input-group">
+            <label class="task-label-text" for="task-category">Category<span class="tlt-required">*</span></label>
+            <div class="p-relative">
+                <select name="task-category" id="task-category" class="task-select">
+                    <option value="0">Select task category</option>
+                    <option value="1">To do</option>
+                    <option value="i">Testing</option>
+                </select>
+                <img class="task-drop-down-arrow" src="./assets/img/drop-down-arrow.svg" alt="drop-down-arrow">
+            </div>
+        </div>
+        <div class="task-label-input-group">
+            <label class="task-label-text" for="task-subtask">Subtasks</label>
+            <div class="p-relative">
+                <input id="task-subtask" class="task-input" type="text" placeholder="Add new subtask" required>
+                <img class="task-plus" src="./assets/img/plus.svg" alt="plus">
+            </div>
+        </div>
     </fieldset>
 </form>
+
+<div class="add-task-bottom-group">
+    <div class="add-task-hint-text"><span class="tlt-required">*</span>This field is required</div>
+    <div class="clear-create-button-bar">
+        <button class="clear-button">
+            <div class="cb-text">Clear</div>
+            <img class="cb-img" src="./assets/img/cancel.svg" alt="cancel">
+        </button>
+        <button class="create-task-button">
+            <div class="ctb-text">Create Task</div>
+            <img class="cb-img" src="./assets/img/check-task.svg" alt="check-task">
+        </button>
+    </div>
+</div>
