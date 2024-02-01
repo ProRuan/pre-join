@@ -5,6 +5,10 @@ body {
     background-color: #F6F7F8;
 }
 
+dialog[open] {
+    display: flex;
+}
+
 .dialog {
     margin: 0;
     padding: 0;
@@ -13,7 +17,7 @@ body {
     color: #000000;
     background-color: rgba(0, 0, 0, 0.1);
     border: unset;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     position: fixed;
@@ -67,7 +71,11 @@ body {
 }
 
 
+/* dialog board task */
 
+
+
+/* Separate mt and bgc!!! */
 /* Create a dialog add task template!!! */
 /* Change classes' padding maybe... */
 /* Create template + script!!! */
