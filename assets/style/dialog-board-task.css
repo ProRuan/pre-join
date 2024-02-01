@@ -25,11 +25,18 @@
     font-weight: 400;
     line-height: 27.6px;
     color: #FFFFFF;
-    background-color: #0038FF;
     border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.dbt-type-blue {
+    background-color: #0038FF;
+}
+
+.dbt-type-green {
+    background-color: #1FD7C1;
 }
 
 .dbt-title {
@@ -126,6 +133,14 @@
 
 .dbt-blue {
     background-color: #6E52FF;
+}
+
+.dbt-blue-green {
+    background-color: #00BEE8;
+}
+
+.dbt-purple {
+    background-color: #9327FF;
 }
 
 .dbt-contact-name {
