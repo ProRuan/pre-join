@@ -5,11 +5,72 @@ body {
     background-color: #F6F7F8;
 }
 
+.dialog {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    color: #000000;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
 
 /* board dialog */
 
+/* add task dialog */
+.dialog-box {
+    padding: 64px 74px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.dialog-close-button {
+    position: absolute;
+    top: 64px;
+    right: 74px;
+}
+
+.add-task-headline-dialog {
+    margin: 0;
+    width: 278px;
+    height: 73px;
+    font-family: 'Inter', sans-serif;
+    font-size: 61px;
+    font-weight: 700;
+    line-height: 73.2px;
+}
+
+.add-task-form-dialog {
+    box-sizing: border-box;
+    padding: 48px 0 0 0;
+    width: fit-content;
+    display: flex;
+    gap: 48.25px;
+}
+
+.add-task-bottom-group-dialog {
+    padding: 138px 0 0 0;
+    width: 977.5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
 
 
+
+/* Create a dialog add task template!!! */
+/* Change classes' padding maybe... */
+/* Create template + script!!! */
 
 /* card-prototype in own html-file!!! */
 /* download Open Sans!!! */
