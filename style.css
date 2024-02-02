@@ -71,9 +71,151 @@ dialog[open] {
 }
 
 
-/* add to backlog button */
+/* contacs */
+.contacts {
+    box-sizing: border-box;
+    padding: 0 24px;
+    width: 456px;
+    height: 928px;
+    background-color: #FFFFFF;
+    filter: drop-shadow(4px 0 6px rgba(0, 0, 0, 0.08));
+}
+
+.contacts-header {
+    padding-top: 22.5px;
+    width: 400px;
+    /* height: 101px; */
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-contact-button {
+    box-sizing: border-box;
+    padding: 12px 0;
+    width: 352px;
+    background-color: #2A3647;
+    border: unset;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.acb-text {
+    width: 175px;
+    height: 25px;
+    font-family: 'Inter', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 25.2px;
+    color: #FFFFFF;
+}
+
+.acb-img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    object-position: centers;
+}
+
+.contacts-collector {
+    box-sizing: border-box;
+    padding: 8px 24px 32px 24px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-letter {
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    padding: 17px 36px;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    border-bottom: 1px solid #D1D1D1;
+}
+
+.contacts-contact {
+    box-sizing: border-box;
+    padding: 15px 24px;
+    width: 352px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 35px;
+}
+
+.contact-profile {
+    width: 42px;
+    height: 42px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    color: white;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgc-orange {
+    background-color: #FF7A00;
+}
+
+.bgc-purple {
+    background-color: #9327FF;
+}
+
+.bgc-blue {
+    background-color: blue;
+}
+
+.bgc-magenta {
+    background-color: #FC71FF;
+}
+
+.bgc-yellow {
+    background-color: #FFBB2B;
+}
+
+.bgc-green {
+    background-color: #1FD7C1;
+}
+
+.name-email-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.contact-name {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.contact-email {
+    height: 19px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    color: #007CEE;
+}
 
 
+/* Add Contact View!!! */
+/* Style scroll bar!!! */
+/* Edit contact padding!!! */
 
 /* Separate mt and bgc!!! */
 /* Create a dialog add task template!!! */
