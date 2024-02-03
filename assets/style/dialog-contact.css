@@ -1,3 +1,4 @@
+/* dialog-edit-contact */
 .dialog-contacts {
     border-radius: 30px;
     display: flex;
@@ -167,6 +168,67 @@
     color: #FFFFFF;
     background-color: #2A3647;
     border: unset;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+
+/* dialog-add-contact */
+.dialog-contacts-left-clear {
+    box-sizing: border-box;
+    padding: 66px 48px;
+    height: 594px;
+    background-color: #2A3647;
+    border-radius: 30px 0 0 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.dcg-subgroup {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.dialog-contacts-subheadline {
+    font-family: 'Inter', sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 32.4px;
+    color: #FFFFFF;
+}
+
+.dcr-profile-clear {
+    box-sizing: border-box;
+    margin-top: 138px;
+    width: 120px;
+    height: 120px;
+    font-family: 'Inter', sans-serif;
+    font-size: 47px;
+    font-weight: 500;
+    line-height: 56.4px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dcr-button-clear {
+    padding: 15px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #2A3647;
+    background-color: transparent;
+    border: 1px solid #2A3647;
     border-radius: 10px;
     display: flex;
     justify-content: center;
