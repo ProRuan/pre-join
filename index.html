@@ -20,14 +20,50 @@
 
 <body onload="init()">
 
-    <dialog id="dialog" class="dialog">
-
+    <dialog open id="dialog" class="dialog">
+        <section class="dialog-contacts">
+            <div class="dialog-contacts-left">
+                <img class="dialog-contacts-img" src="./assets/img/dialog-contacts-logo.svg" alt="dialog-contacts-logo">
+                <div class="dialog-contacts-group">
+                    <div class="dialog-contacts-headline">Edit contact</div>
+                    <img class="dialog-contacts-underline" src="./assets/img/dialog-contacts-underline.svg"
+                        alt="dialog-contacts-underline">
+                </div>
+            </div>
+            <div class="dialog-contacts-right">
+                <img class="dcr-close-button" src="./assets/img/close.svg" alt="close">
+                <div class="dcr-profile bgc-yellow">TW</div>
+                <form class="dcr-form">
+                    <fieldset class="dcr-fieldset">
+                        <div class="dcr-input-group">
+                            <input class="dcr-input" type="text" placeholder="Name" required>
+                            <img class="dcr-img" src="./assets/img/person.svg" alt="person">
+                        </div>
+                        <div class="dcr-input-group">
+                            <input class="dcr-input" type="email" placeholder="Email">
+                            <img class="dcr-img" src="./assets/img/mail.svg" alt="mail">
+                        </div>
+                        <div class="dcr-input-group">
+                            <input class="dcr-input" type="tel" placeholder="Number">
+                            <img class="dcr-img" src="./assets/img/phone.svg" alt="phone">
+                        </div>
+                    </fieldset>
+                    <div class="dcr-button-bar">
+                        <button class="dcr-button">Delete</button>
+                        <button class="dcr-button">
+                            Save
+                            <img src="./assets/img/check-save.svg" alt="check-save">
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
     </dialog>
 
     <div id="content" include-html="./assets/templates/user-interface.html">
         <!-- Bitte Template erstellen! -->
 
-        
+
 
         <!-- Bitte Template erstellen! -->
     </div>
