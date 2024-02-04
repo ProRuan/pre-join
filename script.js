@@ -1,3 +1,10 @@
+// Variables
+const fileSummary = './assets/templates/summary-user.html';
+const fileTask = './assets/templates/add-task.html';
+const fileBoard = './assets/templates/board.html';
+const fileContacts = './assets/templates/contacts.html';
+
+
 async function init() {
     await includeHTML('include-html');
     includeHTML('include-template');
@@ -16,6 +23,17 @@ async function includeHTML(attribute) {
             element.innerHTML = 'Page not found.';
         }
     }
+}
+
+
+async function loadTemplate(filePath) {
+    setElementAttribute('ui-template', 'include-template', filePath);
+    await includeHTML('include-template');
+}
+
+
+function setElementAttribute(id, attribute, value) {
+    document.getElementById(id).setAttribute(attribute, value);
 }
 
 

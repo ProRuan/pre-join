@@ -3,19 +3,19 @@
         <img class="menu-logo" src="./assets/img/menu-logo.svg" alt="menu-logo">
 
         <div class="menu-link-group">
-            <a class="menu-link">
+            <a class="menu-link" onclick="loadTemplate(fileSummary)">
                 <img class="menu-link-icon" src="./assets/img/summary-gray.svg" alt="summary">
                 <div class="menu-link-text mlt-gray">Summary</div>
             </a>
-            <a class="menu-link">
+            <a class="menu-link" onclick="loadTemplate(fileTask)">
                 <img class="menu-link-icon" src="./assets/img/task-gray.svg" alt="task">
                 <div class="menu-link-text mlt-gray">Add Task</div>
             </a>
-            <a class="menu-link">
+            <a class="menu-link" onclick="loadTemplate(fileBoard)">
                 <img class="menu-link-icon" src="./assets/img/board-gray.svg" alt="board">
                 <div class="menu-link-text mlt-gray">Board</div>
             </a>
-            <a class="menu-link ml-active">
+            <a class="menu-link ml-active" onclick="loadTemplate(fileContacts)">
                 <img class="menu-link-icon" src="./assets/img/contacts-white.svg" alt="contacts">
                 <div class="menu-link-text mlt-white">Contacts</div>
             </a>
@@ -36,7 +36,7 @@
             </div>
         </header>
 
-        <main id="summary-user" include-template="./assets/templates/contacts.html">
+        <main id="ui-template" include-template="./assets/templates/contacts.html">
             <!-- Bitte Template erstellen!!! -->
 
 
